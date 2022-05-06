@@ -5,9 +5,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Verify git repositoru
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
+        
+      - name: Install node
+        uses: actions/setup-node@v1
         with:
           node-version: 16
+    
       - name: Install dependencies
         run: npm install
       - name: Run stylelint
@@ -18,7 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Verify git repository
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
+  
+      - name: Install node
+        uses: actions/setup-node@v1
         with:
           node-version: 16
 
