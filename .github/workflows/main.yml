@@ -4,7 +4,7 @@ jobs:
   stylelint:
     runs-on: ubuntu-latest
     steps:
-      - name: Verify git repositoru
+      - name: Verify git repository
         uses: actions/checkout@v2
         
       - name: Install node
@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependecies
+      - name: Install dependencies
         run: npm install
 
       - name: Run lint
