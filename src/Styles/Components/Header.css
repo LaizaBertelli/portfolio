@@ -1,0 +1,36 @@
+.header {
+  background-color: var(--dark-grey);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--primary-dark-color);
+}
+
+.header h2 {
+  font-family: 'Exo 2', 'sans-serif';
+  font-weight: 400;
+}
+
+.nav_bar {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+
+.nav_bar_list {
+  list-style: none;
+  display: inline;
+  margin: auto;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}

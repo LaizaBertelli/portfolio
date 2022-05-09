@@ -1,4 +1,4 @@
-import '../Styles/Header.css';
+import '../Styles/Components/Header.css';
 import React from 'react';
 import { BsFillSunFill } from 'react-icons/bs';
 import NavBar from './NavBar';
@@ -6,9 +6,9 @@ import NavBar from './NavBar';
 function Header() {
   return (
     <div className="header">
-      <p>LAIZA</p>
+      <h2>LAIZA</h2>
       <NavBar />
-      <BsFillSunFill />
+      <BsFillSunFill size="50" />
     </div>
   );
 }
