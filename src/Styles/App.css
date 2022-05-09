@@ -2,7 +2,7 @@
 
 :root {
   --primary-dark-color: #00BB8E;
-  --decondary-dark-color: #F2AF02;
+  --secondary-dark-color: #F2AF02;
   --primary-light-color: #F07936;
   --secondary-light-color: #8751DA;
   --white: #F2F2F2;
@@ -21,6 +21,12 @@ input, textarea {
   outline: none;
 }
 
+/* reset buttons style */
+button {
+  border: none;
+}
+
 body {
   font-family: 'Exo 2', 'sans-serif';
+  background-color: var(--dark-grey);
 }
