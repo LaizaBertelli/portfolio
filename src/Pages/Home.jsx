@@ -5,22 +5,27 @@ import ContactBtn from '../Components/ContactBtn';
 import Footer from '../Components/Footer';
 import About from './About';
 import Projects from './Projects';
+import '../Styles/Pages/Home.css';
+import darkImg from '../Assets/dark.png';
+// import lightImg from '../Assets/light.png';
 
 function Home() {
   return (
     <main className="main">
       <Header />
-      <div className="home">
+      <div className="home" id="home">
         <div className="home_headline">
-          <section className="headline_image_container" />
+          <section className="headline_image_container">
+            <img className="headline_pic" src={darkImg} alt="placeholder text" />
+          </section>
           <section className="headline_text_container">
             <div className="headline_title">
-              <h1>LAIZA BERTELLI</h1>
+              <h1>{'LAIZA < BERTELLI />'}</h1>
               <h6>Desenvolvedora Front-end</h6>
             </div>
             <div className="social_media_links">
-              <AiFillGithub />
-              <AiFillLinkedin />
+              <AiFillGithub size="60" style={{ margin: '10px' }} />
+              <AiFillLinkedin size="60" style={{ margin: '10px' }} />
             </div>
             <ContactBtn />
           </section>
