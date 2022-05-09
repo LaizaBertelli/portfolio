@@ -1,5 +1,10 @@
-const Project = () => {
+import React from 'react';
+import ProjectCard from '../Components/ProjectCard';
 
-};
+function Projects() {
+  return (
+    <ProjectCard />
+  );
+}
 
-export default Project;
+export default Projects;
