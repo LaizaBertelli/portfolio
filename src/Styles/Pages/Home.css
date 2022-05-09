@@ -1,8 +1,11 @@
 .home {
   background-color: var(--dark-grey);
-  height: 75vh;
+  height: 90vh;
   width: 100%;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home_headline {
@@ -10,7 +13,7 @@
   height: 70%;
   justify-content: space-around;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 .headline_image_container {
@@ -34,6 +37,7 @@
 
 .headline_title {
   font-size: 2em;
+  letter-spacing: .1em;
   line-height: 0;
 }
 
