@@ -1,0 +1,33 @@
+.about_main {
+  background: var(--primary-dark-color);
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.about_text_container {
+  width: 50%;
+  height: 100%;
+  font-size: 1.4em;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.about_title {
+  margin: 70px 0;
+}
+
+.about_text {
+  max-width: 90%;
+}
+
+
+.about_image_container {
+  width: 50%;
+  text-align: center;
+}
+
+.about_image {
+  max-width: 100%;
+}
