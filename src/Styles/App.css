@@ -34,4 +34,11 @@ button {
 body {
   font-family: "Exo 2", "sans-serif";
   background-color: var(--dark-grey);
+
+  -ms-overflow-style: none; /*IE, EDGE AND FIREFOX*/
+}
+
+/* CHROME, SAFARI AND OPERA */
+body::-webkit-scrollbar {
+  display: none;
 }
