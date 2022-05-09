@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Styles/Components/ContactBtn.css';
 
 function ContactBtn() {
   return (
