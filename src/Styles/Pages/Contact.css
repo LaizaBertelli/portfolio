@@ -8,7 +8,7 @@
 }
 
 .contact_image {
-  background-image: url('https://image.shutterstock.com/shutterstock/photos/1932503318/display_1500/stock-photo-aerial-photography-ocean-swell-sea-ripple-water-nature-waves-detail-texture-background-wallpaper-1932503318.jpg');
+  background-image: url("https://image.shutterstock.com/shutterstock/photos/1932503318/display_1500/stock-photo-aerial-photography-ocean-swell-sea-ripple-water-nature-waves-detail-texture-background-wallpaper-1932503318.jpg");
   width: 30%;
 }
 
@@ -31,19 +31,20 @@
   line-height: 2em;
   font-size: 1.2em;
   font-weight: 600;
-  letter-spacing: 0.4em;
+  letter-spacing: .4em;
 }
 
-.contact_main input, textarea {
+.contact_main input,
+textarea {
   border: 2px solid white;
-  background-color: rgba(0, 0, 0, 0.137);
+  background-color: rgba(0, 0, 0, .137);
   padding: 8px 25px;
   width: 100%;
   padding: 20px;
   text-align: left;
   resize: none;
   outline: none;
-  font-size: 0.8em;
+  font-size: .8em;
   color: white;
 }
 
@@ -53,11 +54,12 @@
   max-width: 100%;
 }
 
-.contact_main input:focus, textarea:focus {
+.contact_main input:focus,
+textarea:focus {
   border: 1px solid white;
   color: white;
-  letter-spacing: 0.4em;
-  font-size: 0.9em;
+  letter-spacing: .4em;
+  font-size: .9em;
 }
 
 /* light mode */

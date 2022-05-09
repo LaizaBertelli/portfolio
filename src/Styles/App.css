@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;400;500&family=Montserrat:wght@100&display=swap');
+/* stylelint-disable declaration-property-value-blacklist */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;400;500&family=Montserrat:wght@100&display=swap");
 
 :root {
   --primary-dark-color: #00BB8E;
@@ -10,13 +11,17 @@
 }
 
 /* links clean up */
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: inherit;
 }
 
 /* inputs clean up */
-input, textarea {
+input,
+textarea {
   resize: none;
   outline: none;
 }
@@ -27,6 +32,6 @@ button {
 }
 
 body {
-  font-family: 'Exo 2', 'sans-serif';
+  font-family: "Exo 2", "sans-serif";
   background-color: var(--dark-grey);
 }
