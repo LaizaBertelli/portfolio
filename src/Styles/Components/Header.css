@@ -4,32 +4,29 @@
   top: 0;
   width: 100vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   color: var(--primary-dark-color);
 }
 
 .header h2 {
   font-weight: 400;
+  font-size: 2em;
 }
 
 .nav_bar {
   display: inline-block;
   text-align: center;
-  width: 50%;
+  font-size: 1.5em;
 }
 
 .nav_bar_list {
-  list-style: none;
   display: inline;
   margin: auto;
 }
 
-li {
-  display: inline;
-  padding: 10px;
-}
-
 a {
   text-decoration: none;
+  display: inline;
+  padding: 20px;
 }
