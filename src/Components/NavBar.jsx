@@ -1,15 +1,14 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
     <div className="nav_bar">
-      <ul className="nav_bar_list">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">sobre</a></li>
-        <li><a href="#projects">projetos</a></li>
-        <li><Link to="contact">contato</Link></li>
-      </ul>
+      <a href="#">home</a>
+      <a href="#about">sobre</a>
+      <a href="#projects">projetos</a>
+      <Link to="contact">contato</Link>
     </div>
   );
 }
