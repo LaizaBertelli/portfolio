@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;400;500&family=Montserrat:wght@100&display=swap');
+
+:root {
+  --primary-dark-color: #00BB8E;
+  --decondary-dark-color: #F2AF02;
+  --primary-light-color: #F07936;
+  --secondary-light-color: #8751DA;
+  --white: #F2F2F2;
+  --dark-grey: #434343;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* links clean up */
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* inputs clean up */
+input, textarea {
+  resize: none;
+  outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: 'Exo 2', 'sans-serif';
 }
