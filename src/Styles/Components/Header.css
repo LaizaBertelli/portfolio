@@ -2,11 +2,14 @@
   background-color: var(--dark-grey);
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
+  max-height: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: var(--primary-dark-color);
+  box-sizing: border-box;
+  padding: 15px 30px;
 }
 
 .header h2 {

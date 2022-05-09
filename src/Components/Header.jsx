@@ -8,7 +8,7 @@ function Header() {
     <div className="header">
       <h2>LAIZA</h2>
       <NavBar />
-      <BsFillSunFill size="50" />
+      <BsFillSunFill size="40" />
     </div>
   );
 }
