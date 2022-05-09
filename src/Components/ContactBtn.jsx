@@ -1,7 +1,11 @@
-const contactBtn = () => {
-  return <button className="contact_button">
-    CONTATE-ME
-  </button>
-};
+import React from 'react';
 
-export default contactBtn;
+function ContactBtn() {
+  return (
+    <button type="button" className="contact_button">
+      CONTATE-ME
+    </button>
+  );
+}
+
+export default ContactBtn;
