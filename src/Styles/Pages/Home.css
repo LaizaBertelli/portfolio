@@ -1,3 +1,4 @@
+/* stylelint-disable string-quotes */
 .home {
   background-color: var(--dark-grey);
   height: 90vh;
@@ -39,9 +40,48 @@
   font-size: 2em;
   letter-spacing: .1em;
   line-height: 0;
+  width: 100%;
 }
 
 .headline_text_container h6 {
   font-weight: 400;
   margin: 10;
+}
+
+
+/* animation */
+
+span {
+  position: relative;
+}
+
+span::before,
+span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+span::before {
+  background-color: var(--dark-grey);
+  animation: typewriter 4s steps(11) forwards;
+}
+
+span::after {
+  width: .125em;
+  background-color: white;
+  animation: typewriter 4s steps(11) forwards, blink 600ms steps(11) infinite;
+}
+
+@keyframes typewriter {
+
+  to { left: 100%; }
+}
+
+@keyframes blink {
+
+  to { background-color: transparent;}
 }

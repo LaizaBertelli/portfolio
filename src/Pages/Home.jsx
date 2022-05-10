@@ -20,7 +20,10 @@ function Home() {
           </section>
           <section className="headline_text_container">
             <div className="headline_title">
-              <h1>{'LAIZA < BERTELLI />'}</h1>
+              <h1>
+                {'LAIZA  '}
+                <span>{'<BERTELLI />'}</span>
+              </h1>
               <h6>Desenvolvedora Front-end</h6>
             </div>
             <div className="social_media_links">
