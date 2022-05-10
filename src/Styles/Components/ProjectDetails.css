@@ -1,0 +1,38 @@
+.project_details_main {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.image_container {
+  background-image: url("https://img.olhardigital.com.br/wp-content/uploads/2021/12/Code-1000x450.jpg");
+  width: 100%;
+  height: 40%;
+}
+
+.project_infos_container {
+  display: flex;
+  height: 50%;
+}
+
+.project_infos {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.project_infos h2 {
+  margin: 0;
+  font-size: 4rem;
+  line-height: .5em;
+}
+
+.project_description_container {
+  width: 50%;
+  padding: 45px;
+  letter-spacing: .4em;
+  font-size: 1.2em;
+}
