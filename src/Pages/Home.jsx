@@ -7,37 +7,41 @@ import About from './About';
 import Projects from './Projects';
 import '../Styles/Pages/Home.css';
 import darkImg from '../Assets/dark.png';
-// import lightImg from '../Assets/light.png';
+import ContactProvider from '../Provider/ContactProvider';
+import Contact from './Contact';
 
 function Home() {
   return (
-    <main className="main">
-      <Header />
-      <div className="home" id="home">
-        <div className="home_headline">
-          <section className="headline_image_container">
-            <img className="headline_pic" src={darkImg} alt="placeholder text" />
-          </section>
-          <section className="headline_text_container">
-            <div className="headline_title">
-              <h1>
-                {'LAIZA  '}
-                <span>{'<BERTELLI />'}</span>
-              </h1>
-              <h6>Desenvolvedora Front-end</h6>
-            </div>
-            <div className="social_media_links">
-              <AiFillGithub size="60" style={{ margin: '10px' }} />
-              <AiFillLinkedin size="60" style={{ margin: '10px' }} />
-            </div>
-            <ContactBtn />
-          </section>
+    <ContactProvider>
+      <Contact />
+      <main className="main" id="main">
+        <Header />
+        <div className="home" id="home">
+          <div className="home_headline">
+            <section className="headline_image_container">
+              <img className="headline_pic" src={darkImg} alt="placeholder text" />
+            </section>
+            <section className="headline_text_container">
+              <div className="headline_title">
+                <h1>
+                  {'LAIZA  '}
+                  <span>{'<BERTELLI />'}</span>
+                </h1>
+                <h6>Desenvolvedora Front-end</h6>
+              </div>
+              <div className="social_media_links">
+                <AiFillGithub size="60" style={{ margin: '10px' }} />
+                <AiFillLinkedin size="60" style={{ margin: '10px' }} />
+              </div>
+              <ContactBtn />
+            </section>
+          </div>
         </div>
-      </div>
-      <About />
-      <Projects />
-      <Footer />
-    </main>
+        <About />
+        <Projects />
+        <Footer />
+      </main>
+    </ContactProvider>
   );
 }
 
