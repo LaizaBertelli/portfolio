@@ -1,6 +1,6 @@
 /* stylelint-disable string-quotes */
 .home {
-  background-color: var(--dark-grey);
+  background-color: var(--black-white);
   height: 90vh;
   width: 100%;
   color: white;
@@ -66,7 +66,7 @@ span::after {
 }
 
 span::before {
-  background-color: var(--dark-grey);
+  background-color: var(--black-white);
   animation: typewriter 4s steps(11) forwards;
 }
 
@@ -84,4 +84,18 @@ span::after {
 @keyframes blink {
 
   to { background-color: transparent;}
+}
+
+/* mobile */
+
+@media only screen and (max-width: 1000px) {
+  
+  .headline_image_container {
+    display: none;
+  }
+
+  .headline_text_container {
+    width: 100%;
+    font-size: .8em;
+  }
 }
