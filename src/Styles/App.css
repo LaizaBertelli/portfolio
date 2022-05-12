@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;400;500&family=Montserrat:wght@100&display=swap");
 
 :root {
-  --primary-dark-color: #00BB8E;
-  --secondary-dark-color: #F2AF02;
+  --primary-color: #00BB8E;
+  --secondary-color: #F2AF02;
   --primary-light-color: #F07936;
   --secondary-light-color: #8751DA;
   --white: #F2F2F2;
-  --dark-grey: #434343;
+  --black-white: #434343;
 }
 
 /* links clean up */
@@ -33,7 +33,7 @@ button {
 
 body {
   font-family: "Exo 2", "sans-serif";
-  background-color: var(--dark-grey);
+  background-color: var(--black-white);
 
   -ms-overflow-style: none; /*IE, EDGE AND FIREFOX*/
 }
@@ -41,4 +41,13 @@ body {
 /* CHROME, SAFARI AND OPERA */
 body::-webkit-scrollbar {
   display: none;
+}
+
+.contact_modal {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

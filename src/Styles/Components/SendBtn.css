@@ -1,9 +1,13 @@
 .send_button {
-  color: white;
-  background-color: transparent;
+  color: var(--primary-color);
   font-size: 1.5em;
   font-weight: 500;
   border: 2px solid white;
   padding: 8px 25px; 
   align-self: end;
+}
+
+.send_button:disabled {
+  background-color: transparent;
+  color: white;
 }
